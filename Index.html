@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/IndexStyle.css">
 </head>
 
-<body style="background: #fafafa;overflow-y: scroll;">
+<body style="background: #fafafa;overflow-y: scroll;" id="body">
     <header>
         <div class="container">
             <div class="icons col-md-4 col-sm-4">
@@ -23,12 +23,20 @@
                 <div class="icon"><a href=""><i class="fa fa-compass"></i></a></div>
                 <div class="icon"><a href=""><i class="fa fa-home"></i></a></div>
             </div>
-            <div class="search col-md-4 col-sm-4">
-                <input type="text">
-                <div class="text-search">
-                    <p>Search</p>
-                    <i class="fa fa-search"></i>
+            <div class="search col-md-4 col-sm-4" id="search">
+                <span><a href=""><i id="close-Search"
+                            style="display: none;position: absolute;top: 26px;margin-right: 4px;"
+                            class="fa fa-close"></i>
+                    </a>
+                </span>
+                <input id="input-search" type="text" value="">
+                <div class="text-search" id="search-Class">
+
+
+                    <p id="search-text" style="display: inline-block;">Search</p>
+                    <i class="fa fa-search" id="search-icon"></i>
                 </div>
+
             </div>
             <div class="ImageLogo col-md-4 col-sm-4">
                 <img src="Image/735145cfe0a4.png" alt="">

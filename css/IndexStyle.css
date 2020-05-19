@@ -31,27 +31,30 @@
      transition: all 0.2s ease;
      text-decoration: none !important;
  }
- /* ====================== Header icon ========== */
+ /* ====================== Header Top========== */
  
  header {
      background: white;
  }
  
  header .icons {
-    display: flex;
-}
- header .container  {
-    display: flex;
-    height: 65px
+     display: flex;
  }
-  header .icons a{
-      display:flex;
-      align-items: center;  
-  }
+ 
+ header .container {
+     display: flex;
+     height: 65px
+ }
+ 
+ header .icons a {
+     display: flex;
+     align-items: center;
+ }
+ 
  header .icons a img {
-    width: 25px;
-    border-radius: 50%;
-    height: 25px;
+     width: 25px;
+     border-radius: 50%;
+     height: 25px;
  }
  
  header .icons .icon {
@@ -64,15 +67,15 @@
      font-size: 20px;
  }
  
-header .search{
-    display: flex;
-    justify-content: center;  
-    align-items: center;
-}
-
+ header .search {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
  header .search input {
      background: #fafafa;
-     border: 1px solid  #ccc; 
+     border: 1px solid #ccc;
      width: 270px;
      padding: 5px 15px;
      direction: ltr;
@@ -82,19 +85,20 @@ header .search{
  header .search .text-search {
      color: darkgrey;
      user-select: none;
+     font-size: 12px;
      position: absolute;
  }
- header .search .text-search i{
+ 
+ header .search .text-search i {
      padding: unset !important;
  }
- header .search .text-search p {
-    display: inline-block;
+ 
+ header .ImageLogo {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
  }
- header .ImageLogo{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
- }
+ 
  header .ImageLogo img {
      width: 99px;
      float: left;
