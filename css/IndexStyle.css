@@ -1,212 +1,255 @@
- @font-face {
-     font-family: "name";
-     src: url(fonts/font_Medium.eot) format("eot"), url(fonts/font_Medium.ttf) format("truetype"), url(fonts/font_Medium.woff) format("woff");
- }
- 
- * {
-     padding: 0;
-     margin: 0;
- }
- 
- body {
-     font-family: "name";
-     direction: rtl;
-     background-color: cadetblue;
- }
- 
- .body {
-     background-color: #f1f1f1 !important;
- }
- 
- li {
-     list-style: none;
- }
- 
- a {
-     color: #1a1f59;
- }
- 
- a,
- a:hover {
-     transition: all 0.2s ease;
-     text-decoration: none !important;
- }
- /* ====================== Header Top========== */
- 
- header {
-     background: white;
- }
- 
- header .icons {
-     display: flex;
- }
- 
- header .container {
-     display: flex;
-     height: 65px
- }
- 
- header .icons a {
-     display: flex;
-     align-items: center;
- }
- 
- header .container {
-     display: flex;
-     height: 65px
- }
- 
- header .icons a {
-     display: flex;
-     margin-left: 10px;
-     justify-content: center;
-     width: 30px;
-     align-items: center;
- }
- 
- header .icons a.active {
-     background: #dcdcdca3;
- }
- 
- header .icons a img {
-     width: 25px;
-     border-radius: 50%;
-     height: 25px;
- }
- 
- header .icons .icon i {
-     font-size: 20px;
- }
- 
- header .search {
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- 
- header .search input {
-     background: #fafafa;
-     border: 1px solid #ccc;
-     width: 270px;
-     padding: 5px 15px;
-     direction: ltr;
-     text-align: left;
- }
- 
- header .search .text-search {
-     color: darkgrey;
-     user-select: none;
-     font-size: 12px;
-     position: absolute;
- }
- 
- header .search .text-search i {
-     padding: unset !important;
- }
- 
- header .ImageLogo {
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
- }
- 
- header .ImageLogo img {
-     width: 99px;
-     float: left;
- }
- /* =========================================== Main */
- 
- main {
-     display: flex;
-     margin-top: 37px;
- }
- 
- main .main-right {
-     display: grid;
- }
- 
- main .main-right .profile img {
-     width: 100px;
-     float: left;
-     border-radius: 21px;
- }
- 
- main .main-right .profile p {
-     display: inline-block;
-     float: left;
-     margin-top: 41px;
-     margin-left: 12px;
- }
- 
- main .main-right .direct-list {
-     background: white;
-     display: inline-block;
-     direction: ltr;
-     margin-top: 18px;
-     padding: 10px;
-     border-radius: 6px;
- }
- 
- main .main-right .direct-list .direct-main img {
-     width: 45px;
-     border-radius: 56px;
-     height: 44px;
- }
- 
- main .main-right .direct-list .direct-header {
-     display: flex;
- }
- 
- main .main-right .direct-list .direct-main {
-     display: flex;
- }
- 
- main .main-right .direct-list .direct-main a {
-     width: 322px;
-     display: flex;
-     padding: 10px;
-     margin-top: -9px;
- }
- 
- main .main-right .direct-list .direct-main a:hover {
-     background-color: rgb(140, 175, 140);
-     border-radius: 7px;
- }
- 
- main .main-right .direct-list .direct-main p {
-     width: 249px;
-     height: 27px;
-     margin-top: 9px;
-     text-align: end;
-     margin-left: 10px;
- }
- 
- main .main-right .direct-list .direct-main a:hover p {
-     color: white;
- }
- 
- main .main-right .direct-list .direct-main h6 {
-     width: 18px;
-     text-align: -webkit-center;
-     height: 19px;
-     margin-top: 9px;
-     background: bisque;
-     border-radius: 38px;
-     font-size: 13px;
-     padding-top: 3px;
- }
- 
- main .main-right .direct-list .direct-main a:hover h6 {
-     background-color: blue;
-     color: white;
- }
- 
- main .main-right .direct-list .direct-header h2 {
-     margin: 0 auto;
- }
- 
- main .main {
-     margin: 0 auto;
- }
- 
- main .main-left {}
+@font-face {
+    font-family: "name";
+    src: url(fonts/font_Medium.eot) format("eot"), url(fonts/font_Medium.ttf) format("truetype"), url(fonts/font_Medium.woff) format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "name";
+    direction: rtl;
+    background-color: cadetblue;
+}
+
+.body {
+    background-color: #f1f1f1 !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #1a1f59;
+}
+
+a,
+a:hover {
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+}
+
+
+/* ====================== Header Top========== */
+
+header {
+    background: white;
+}
+
+header .icons {
+    display: flex;
+}
+
+header .container {
+    display: flex;
+    height: 65px
+}
+
+header .icons a {
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    height: 65px
+}
+
+header .icons a {
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    width: 30px;
+    align-items: center;
+}
+
+header .icons a.active {
+    background: #dcdcdca3;
+}
+
+header .icons a img {
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+}
+
+header .icons .icon i {
+    font-size: 20px;
+}
+
+header .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .search input {
+    background: #fafafa;
+    border: 1px solid #ccc;
+    width: 270px;
+    padding: 5px 15px;
+    direction: ltr;
+    text-align: left;
+}
+
+header .search .text-search {
+    color: darkgrey;
+    user-select: none;
+    font-size: 12px;
+    position: absolute;
+}
+
+header .search .text-search i {
+    padding: unset !important;
+}
+
+header .ImageLogo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .ImageLogo img {
+    width: 99px;
+    float: left;
+}
+
+
+/* =========================================== Main */
+
+main {
+    display: flex;
+    margin-top: 37px;
+}
+
+main .main-right .profile img {
+    width: 100px;
+    float: left;
+    border-radius: 21px;
+}
+
+main .main-right .profile p {
+    display: inline-block;
+    float: left;
+    margin-top: 41px;
+    margin-left: 12px;
+}
+
+main .main-right .direct-list {
+    background: white;
+    display: inline-block;
+    direction: ltr;
+    margin-top: 18px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+main .main-right .direct-list .direct-main img {
+    width: 45px;
+    border-radius: 56px;
+    height: 44px;
+}
+
+main .main-right .direct-list .direct-header {
+    display: flex;
+}
+
+main .main-right .direct-list .direct-main {
+    display: flex;
+}
+
+main .main-right .direct-list .direct-main a {
+    width: 322px;
+    display: flex;
+    padding: 10px;
+    margin-top: -9px;
+}
+
+main .main-right .direct-list .direct-main a:hover {
+    background-color: rgb(140, 175, 140);
+    border-radius: 7px;
+}
+
+main .main-right .direct-list .direct-main p {
+    width: 249px;
+    height: 27px;
+    margin-top: 9px;
+    text-align: end;
+    margin-left: 10px;
+}
+
+main .main-right .direct-list .direct-main a:hover p {
+    color: white;
+}
+
+main .main-right .direct-list .direct-main h6 {
+    width: 18px;
+    text-align: -webkit-center;
+    height: 19px;
+    margin-top: 9px;
+    background: bisque;
+    border-radius: 38px;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+main .main-right .direct-list .direct-main a:hover h6 {
+    background-color: blue;
+    color: white;
+}
+
+main .main-right .direct-list .direct-header h2 {
+    margin: 0 auto;
+}
+
+main .main {
+    margin: 0 auto;
+}
+
+main .main .main-list {
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+main .main .main-list .main-list-header {
+    display: flex;
+    direction: ltr;
+}
+
+main .main .main-list .main-list-header #imgPro {
+    width: 47px;
+    height: 43px;
+    border-radius: 48px;
+}
+
+main .main .main-list .main-list-header p {
+    width: 527px;
+    text-align: end;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+
+main .main .main-list .main-list-main img {
+    width: 100%;
+    height: 333px;
+    margin-top: 9px;
+}
+
+main .main .main-list .main-list-footer {
+    margin-top: 10px;
+    text-align: left;
+}
+
+main .main .main-list .main-list-footer #icon-left {
+    font-size: 18px;
+}
+
+main .main .main-list .main-list-footer #icon-left:hover {
+    cursor: pointer;
+}
+
+main .main-left {}
