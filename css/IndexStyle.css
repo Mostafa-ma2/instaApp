@@ -38,7 +38,6 @@
  }
  
  header .icons {
-<<<<<<< HEAD
      display: flex;
  }
  
@@ -52,24 +51,23 @@
      align-items: center;
  }
  
-=======
-    display: flex;
-}
- header .container  {
-    display: flex;
-    height: 65px
+ header .container {
+     display: flex;
+     height: 65px
  }
-  header .icons a{
-    display:flex;
-    margin-left: 10px;
-    justify-content:center;
-    width:30px;
-    align-items: center;  
-  }
-  header .icons a.active{
-    background: #dcdcdca3;
-  }
->>>>>>> 0ff8a42e3d9818bca1c861580c89896b47603b6d
+ 
+ header .icons a {
+     display: flex;
+     margin-left: 10px;
+     justify-content: center;
+     width: 30px;
+     align-items: center;
+ }
+ 
+ header .icons a.active {
+     background: #dcdcdca3;
+ }
+ 
  header .icons a img {
      width: 25px;
      border-radius: 50%;
