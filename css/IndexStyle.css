@@ -114,3 +114,25 @@
      width: 99px;
      float: left;
  }
+ /* =========================================== Main */
+ 
+ main {
+     display: flex;
+     margin-top: 37px;
+ }
+ 
+ main .main-right {
+     background-color: green;
+     height: 141px;
+ }
+ 
+ main .main {
+     background-color: red;
+     height: 591px;
+     margin: 0 auto;
+ }
+ 
+ main .main-left {
+     background-color: yellow;
+     height: 200px;
+ }
