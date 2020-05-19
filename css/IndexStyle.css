@@ -121,6 +121,10 @@
      margin-top: 37px;
  }
  
+ main .main-right {
+     display: grid;
+ }
+ 
  main .main-right .profile img {
      width: 100px;
      float: left;
@@ -132,6 +136,73 @@
      float: left;
      margin-top: 41px;
      margin-left: 12px;
+ }
+ 
+ main .main-right .direct-list {
+     background: white;
+     display: inline-block;
+     direction: ltr;
+     margin-top: 18px;
+     padding: 10px;
+     border-radius: 6px;
+ }
+ 
+ main .main-right .direct-list .direct-main img {
+     width: 45px;
+     border-radius: 56px;
+     height: 44px;
+ }
+ 
+ main .main-right .direct-list .direct-header {
+     display: flex;
+ }
+ 
+ main .main-right .direct-list .direct-main {
+     display: flex;
+ }
+ 
+ main .main-right .direct-list .direct-main a {
+     width: 322px;
+     display: flex;
+     padding: 10px;
+     margin-top: -9px;
+ }
+ 
+ main .main-right .direct-list .direct-main a:hover {
+     background-color: rgb(140, 175, 140);
+     border-radius: 7px;
+ }
+ 
+ main .main-right .direct-list .direct-main p {
+     width: 249px;
+     height: 27px;
+     margin-top: 9px;
+     text-align: end;
+     margin-left: 10px;
+ }
+ 
+ main .main-right .direct-list .direct-main a:hover p {
+     color: white;
+ }
+ 
+ main .main-right .direct-list .direct-main h6 {
+     width: 18px;
+     text-align: -webkit-center;
+     height: 19px;
+     margin-top: 9px;
+     background: bisque;
+     border-radius: 38px;
+     font-size: 13px;
+     padding-top: 3px;
+ }
+ 
+ main .main-right .direct-list .direct-main a:hover h6 {
+     background-color: blue;
+     color: white;
+ }
+ 
+ main .main-right .direct-list .direct-header h2 {
+     margin: 0 auto;
  }
  
  main .main {
