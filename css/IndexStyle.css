@@ -121,18 +121,21 @@
      margin-top: 37px;
  }
  
- main .main-right {
-     background-color: green;
-     height: 141px;
+ main .main-right .profile img {
+     width: 100px;
+     float: left;
+     border-radius: 21px;
+ }
+ 
+ main .main-right .profile p {
+     display: inline-block;
+     float: left;
+     margin-top: 41px;
+     margin-left: 12px;
  }
  
  main .main {
-     background-color: red;
-     height: 591px;
      margin: 0 auto;
  }
  
- main .main-left {
-     background-color: yellow;
-     height: 200px;
- }
+ main .main-left {}
