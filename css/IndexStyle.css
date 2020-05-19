@@ -42,10 +42,10 @@
  }
  
  header .icons img {
-     width: 60px;
+     width: 30px;
      border-radius: 70px;
-     height: 47px;
-     margin-top: 6px;
+     height: 25px;
+     margin-top: 12px;
  }
  
  header .icons .icon {
@@ -62,16 +62,23 @@
  
  header .serch input {
      margin-top: 17px;
-     margin-right: 58px;
-     padding-top: 7px;
-     padding-left: 151px;
      background: #fafafa;
      border: 1px solid;
+     width: 270px;
+     text-align: end;
  }
  
  header .serch .text-serch {
      margin-top: -27px;
      margin-left: -35px;
+     color: darkgrey;
+     user-select: none;
+     z-index: -100;
+ }
+ 
+ header .serch .text-serch p {
+     margin-top: -25px;
+     margin-left: -61px;
  }
  
  header .ImageLogo img {
