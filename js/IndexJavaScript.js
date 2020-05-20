@@ -105,3 +105,39 @@ function mylikebt(obj) {
         obj.style.color = "black";
     }
 }
+////// Modal Stories 
+var imgStori = document.getElementById("imgStori");
+var PausedStories = document.getElementById("PausedStories");
+imgStori.addEventListener("mousedown", PausedStori)
+imgStori.addEventListener("mouseup", PausedStorileve)
+
+function PausedStori() {
+    PausedStories.style.display = "block";
+}
+
+function PausedStorileve() {
+    PausedStories.style.display = "none";
+
+}
+////Modal inputs
+var commentstoris = document.getElementById("commentstoris");
+var textinputs = document.getElementById("textinputs");
+commentstoris.addEventListener("keyup", function() {
+    InputSendmasseg(this)
+})
+
+function InputSendmasseg(obj) {
+    if (obj.value == "") {
+        textinputs.style.display = "block"
+    } else {
+        textinputs.style.display = "none"
+    }
+}
+//// modal stories close
+var closeStori = document.getElementById("closeStori");
+var modals = document.getElementById("modals");
+closeStori.addEventListener("click", closeStories)
+
+function closeStories() {
+    modals.style.display = "none"
+}

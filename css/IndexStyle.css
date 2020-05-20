@@ -379,6 +379,7 @@ main .Modal .content-modals .modal-footer #commentstoris {
     position: relative;
     background: #fafafa;
     border: 1px solid #ccc;
+    text-align: initial;
 }
 
 main .Modal .content-modals .modal-footer .text-input {
