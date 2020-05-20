@@ -45,8 +45,14 @@
     height: 65px
  }
   header .icons a{
-      display:flex;
-      align-items: center;  
+    display:flex;
+    margin-left: 10px;
+    justify-content:center;
+    width:30px;
+    align-items: center;  
+  }
+  header .icons a.active{
+    background: #dcdcdca3;
   }
  header .icons a img {
     width: 25px;
@@ -54,13 +60,7 @@
     height: 25px;
  }
  
- header .icons .icon {
-     display: flex;
-     align-items: center;
- }
- 
  header .icons .icon i {
-     margin-right: 16px;
      font-size: 20px;
  }
  
