@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "name";
+    src: url(fonts/font_Medium.eot) format("eot"), url(fonts/font_Medium.ttf) format("truetype"), url(fonts/font_Medium.woff) format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "name";
+    direction: rtl;
+    background-color: #dcdcdca3;
+}
+
+.body {
+    background-color: #f1f1f1 !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #1a1f59;
+}
+
+a,
+a:hover {
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+}
+
+
+/* ====================== Header Top========== */
+
+header {
+    background: white;
+}
+
+header .icons {
+    display: flex;
+}
+
+header .container {
+    display: flex;
+    height: 65px
+}
+
+header .icons a {
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    height: 65px
+}
+
+header .icons a {
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    width: 30px;
+    align-items: center;
+}
+
+header .icons a.active {
+    background: #dcdcdca3;
+}
+
+header .icons a img {
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
+}
+
+header .icons .icon i {
+    font-size: 20px;
+}
+
+header .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .search input {
+    background: #fafafa;
+    border: 1px solid #ccc;
+    width: 270px;
+    padding: 5px 15px;
+    direction: ltr;
+    text-align: left;
+}
+
+header .search .text-search {
+    color: darkgrey;
+    user-select: none;
+    font-size: 12px;
+    position: absolute;
+}
+
+header .search .text-search i {
+    padding: unset !important;
+}
+
+header .ImageLogo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .ImageLogo img {
+    width: 99px;
+    float: left;
+}
+
+
+/* ============================== Main */
