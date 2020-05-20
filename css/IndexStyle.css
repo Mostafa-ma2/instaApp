@@ -213,6 +213,7 @@ main .main .main-list {
     background-color: white;
     padding: 12px;
     border-radius: 8px;
+    margin-top: 8px;
 }
 
 main .main .main-list .main-list-header {
@@ -250,6 +251,24 @@ main .main .main-list .main-list-footer #icon-left {
 
 main .main .main-list .main-list-footer #icon-left:hover {
     cursor: pointer;
+}
+
+main .main .main-list .main-list-footer #massegeComment {
+    width: 100%;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    display: flex;
+    text-align: left;
+    padding: 3px;
+}
+
+main .main .main-list .main-list-footer .Text-comment {
+    justify-content: center;
+    position: absolute;
+    color: darkgrey;
+    user-select: none;
+    font-size: 12px;
+    margin-top: -15px;
 }
 
 main .main-left {}
