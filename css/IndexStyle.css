@@ -332,7 +332,7 @@ main .Modal {
 main .Modal .content-modals {
     margin: 2% auto;
     width: 50%;
-    height: 103%;
+    height: 80%;
     padding: 20px;
     background-color: white;
     border-radius: 7px;
@@ -364,14 +364,30 @@ main .Modal .content-modals .modal-header h2 {
 
 main .Modal .content-modals .modal-main img {
     width: 100%;
-    height: max-content;
+    height: 445px;
 }
 
 main .Modal .content-modals .modal-footer {
+    position: relative;
     display: block;
     direction: ltr;
 }
 
-main .Modal .content-modals .modal-footer input {
-    width: 97%;
+main .Modal .content-modals .modal-footer #commentstoris {
+    width: 93%;
+    height: 24px;
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #ccc;
+}
+
+main .Modal .content-modals .modal-footer .text-input {
+    position: absolute;
+    top: 21px;
+    width: 123px;
+    cursor: text;
+    text-align: center;
+    height: auto;
+    user-select: none;
+    font-size: 12px;
 }
