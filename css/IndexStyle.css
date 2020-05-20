@@ -314,3 +314,64 @@ main .main-left .Stories-list p {
     color: darkslateblue;
     cursor: pointer;
 }
+
+
+/* ================ Modals */
+
+main .Modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main .Modal .content-modals {
+    margin: 2% auto;
+    width: 50%;
+    height: 103%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+main .Modal .content-modals .modal-header {
+    justify-content: space-between;
+}
+
+main .Modal .content-modals .modal-header img {
+    width: 42px;
+    border-radius: 41px;
+    height: 42px;
+}
+
+main .Modal .content-modals .modal-header p {
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main .Modal .content-modals .modal-header h2 {
+    background: darkgray;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+main .Modal .content-modals .modal-main img {
+    width: 100%;
+    height: max-content;
+}
+
+main .Modal .content-modals .modal-footer {
+    display: block;
+    direction: ltr;
+}
+
+main .Modal .content-modals .modal-footer input {
+    width: 97%;
+}
