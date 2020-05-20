@@ -76,6 +76,7 @@ function mymarkbt(obj) {
         obj.classList.remove("fa-bookmark-o");
         obj.classList.add("fa-bookmark");
         obj.style.color = "#ed4956";
+
     } else {
         obj.classList.remove("fa-bookmark");
         obj.classList.add("fa-bookmark-o");
@@ -85,10 +86,19 @@ function mymarkbt(obj) {
 
 
 function mylikebt(obj) {
+
     if (obj.className == "fa fa-heart-o") {
         obj.classList.remove("fa-heart-o");
         obj.classList.add("fa-heart");
         obj.style.color = "#ed4956";
+        likepost.style.display = "block";
+        var s = setTimeout(timeout, 800);
+
+        function timeout() {
+            likepost.style.display = "none";
+
+        }
+
     } else {
         obj.classList.remove("fa-heart");
         obj.classList.add("fa-heart-o");
