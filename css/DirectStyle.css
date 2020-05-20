@@ -1,121 +1,211 @@
-@font-face {
-    font-family: "name";
-    src: url(fonts/font_Medium.eot) format("eot"), url(fonts/font_Medium.ttf) format("truetype"), url(fonts/font_Medium.woff) format("woff");
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    font-family: "name";
-    direction: rtl;
-    background-color: #dcdcdca3;
-}
-
-.body {
-    background-color: #f1f1f1 !important;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    color: #1a1f59;
-}
-
-a,
-a:hover {
-    transition: all 0.2s ease;
-    text-decoration: none !important;
-}
-
-
-/* ====================== Header Top========== */
-
-header {
-    background: white;
-}
-
-header .icons {
-    display: flex;
-}
-
-header .container {
-    display: flex;
-    height: 65px
-}
-
-header .icons a {
-    display: flex;
-    align-items: center;
-}
-
-header .container {
-    display: flex;
-    height: 65px
-}
-
-header .icons a {
-    display: flex;
-    margin-left: 10px;
-    justify-content: center;
-    width: 30px;
-    align-items: center;
-}
-
-header .icons a.active {
-    background: #dcdcdca3;
-}
-
-header .icons a img {
-    width: 25px;
-    border-radius: 50%;
-    height: 25px;
-}
-
-header .icons .icon i {
-    font-size: 20px;
-}
-
-header .search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header .search input {
-    background: #fafafa;
-    border: 1px solid #ccc;
-    width: 270px;
-    padding: 5px 15px;
-    direction: ltr;
-    text-align: left;
-}
-
-header .search .text-search {
-    color: darkgrey;
-    user-select: none;
-    font-size: 12px;
-    position: absolute;
-}
-
-header .search .text-search i {
-    padding: unset !important;
-}
-
-header .ImageLogo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-header .ImageLogo img {
-    width: 99px;
-    float: left;
-}
-
-
-/* ============================== Main */
+    @font-face {
+        font-family: "name";
+        src: url(fonts/font_Medium.eot) format("eot"), url(fonts/font_Medium.ttf) format("truetype"), url(fonts/font_Medium.woff) format("woff");
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: "name";
+        direction: rtl;
+        background-color: #dcdcdca3;
+    }
+    
+    .body {
+        background-color: #f1f1f1 !important;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        color: #1a1f59;
+    }
+    
+    a,
+    a:hover {
+        transition: all 0.2s ease;
+        text-decoration: none !important;
+    }
+    /* ====================== Header Top========== */
+    
+    header {
+        background: white;
+    }
+    
+    header .icons {
+        display: flex;
+    }
+    
+    header .container {
+        display: flex;
+        height: 65px
+    }
+    
+    header .icons a {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .container {
+        display: flex;
+        height: 65px
+    }
+    
+    header .icons a {
+        display: flex;
+        margin-left: 10px;
+        justify-content: center;
+        width: 30px;
+        align-items: center;
+    }
+    
+    header .icons a.active {
+        background: #dcdcdca3;
+    }
+    
+    header .icons a img {
+        width: 25px;
+        border-radius: 50%;
+        height: 25px;
+    }
+    
+    header .icons .icon i {
+        font-size: 20px;
+    }
+    
+    header .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .search input {
+        background: #fafafa;
+        border: 1px solid #ccc;
+        width: 270px;
+        padding: 5px 15px;
+        direction: ltr;
+        text-align: left;
+    }
+    
+    header .search .text-search {
+        color: darkgrey;
+        user-select: none;
+        font-size: 12px;
+        position: absolute;
+    }
+    
+    header .search .text-search i {
+        padding: unset !important;
+    }
+    
+    header .ImageLogo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    header .ImageLogo img {
+        width: 99px;
+        float: left;
+    }
+    /* ============================== Main */
+    
+    main {
+        display: flex;
+        justify-content: center;
+        margin-top: 49px;
+    }
+    
+    main .main-right {
+        background: white;
+        display: inline-block;
+        direction: ltr;
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+    }
+    
+    main .main-right .massege-header {
+        display: flex;
+    }
+    
+    main .main-right .massege-header img {
+        width: 71px;
+        border-radius: 60px;
+        height: 66px;
+    }
+    
+    main .main-right .massege-header .profile-name {
+        margin-top: 18px;
+    }
+    
+    main .main-right .massege-header .profile-name p {
+        margin-left: 17px;
+        font-size: 25px;
+    }
+    
+    main .main-right .massege-header .profile-name h2 {
+        font-size: 15px;
+        color: green;
+    }
+    
+    main .main-right .massege-main {
+        background: darkseagreen;
+        width: 100%;
+        margin-top: 11px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    
+    main .main-right .massege-main .My-massege {
+        padding: 10px;
+        background: gainsboro;
+        display: inline-flex;
+        border-radius: 10px;
+    }
+    
+    main .main-right .massege-main .you-massege {
+        display: flex;
+    }
+    
+    main .main-right .massege-main .you-massege img {
+        width: 28px;
+        border-radius: 36px;
+    }
+    
+    main .main-right .massege-main .you-massege p {
+        margin-top: 8px;
+        margin-left: 9px;
+        padding: 4px;
+        background: blanchedalmond;
+        border-radius: 10px;
+    }
+    
+    main .main-right .input-massege {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main .main-right .input-massege input {
+        background: #fafafa;
+        border: 1px solid #ccc;
+        width: 96%;
+        padding: 5px 15px;
+        direction: ltr;
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    main .main-right .input-massege i {
+        margin-top: 11px;
+        cursor: pointer;
+    }
+    
+    main .main-left {}
