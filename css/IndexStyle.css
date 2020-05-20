@@ -38,22 +38,36 @@
  }
  
  header .icons {
-    display: flex;
-}
- header .container  {
-    display: flex;
-    height: 65px
+     display: flex;
  }
-  header .icons a{
-    display:flex;
-    margin-left: 10px;
-    justify-content:center;
-    width:30px;
-    align-items: center;  
-  }
-  header .icons a.active{
-    background: #dcdcdca3;
-  }
+ 
+ header .container {
+     display: flex;
+     height: 65px
+ }
+ 
+ header .icons a {
+     display: flex;
+     align-items: center;
+ }
+ 
+ header .container {
+     display: flex;
+     height: 65px
+ }
+ 
+ header .icons a {
+     display: flex;
+     margin-left: 10px;
+     justify-content: center;
+     width: 30px;
+     align-items: center;
+ }
+ 
+ header .icons a.active {
+     background: #dcdcdca3;
+ }
+ 
  header .icons a img {
      width: 25px;
      border-radius: 50%;

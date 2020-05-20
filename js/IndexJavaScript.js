@@ -2,13 +2,12 @@ var body = document.getElementById("body");
 // Serch box
 var InputSearch = document.getElementById("input-search");
 var Serch = document.getElementById("search");
-var Tsearch = document.getElementById("search-text");
+var txtSearchText = document.querySelector('.text-search');
 var IconSearch = document.getElementById("search-icon");
 var CloseSearch = document.getElementById("close-Search");
 InputSearch.addEventListener("click", SearchBox)
 
 function SearchBox() {
-    search.style.justifyContent = "flex-end";
     CloseSearch.style.display = "inline-block";
 }
 // Serch hide and show
@@ -18,16 +17,20 @@ InputSearch.addEventListener("keyup", function() {
 
 function TserchNone(eh) {
     if (eh.value == "") {
-        Tsearch.style.display = "inline-block";
+        txtSearchText.style.Left = "57px;";
+        txtSearchText.style.display = "inline-block";
     } else {
-        Tsearch.style.display = "none";
+        txtSearchText.style.display = "none";
 
     }
 }
 //close serch
-CloseSearch.addEventListener("click", closeSerch)
+CloseSearch.addEventListener("click", function() {
+    closeSerch(search.value)
+})
 
-function closeSerch() {
-    search.style.justifyContent = "center";
-    closeSerch.style.display = "none";
-}
+function closeSerch(eh) {
+    InputSearch.value = "";
+    CloseSearch.style.display = "none";
+    txtSearchText.style.display = "inline-block";
+}   
