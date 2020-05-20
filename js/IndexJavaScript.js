@@ -133,6 +133,7 @@ function InputSendmasseg(obj) {
         textinputs.style.display = "none"
     }
 }
+
 //// modal stories close
 var closeStori = document.getElementById("closeStori");
 var modals = document.getElementById("modals");
@@ -140,4 +141,16 @@ closeStori.addEventListener("click", closeStories)
 
 function closeStories() {
     modals.style.display = "none"
+}
+//// stories open
+var storiesOpen = document.getElementById("storiesOpen");
+storiesOpen.addEventListener("click", openstories)
+
+function openstories() {
+    if (modals.style.display == "none") {
+        modals.style.display = "block";
+    } else {
+        modals.style.display = "none";
+
+    }
 }
