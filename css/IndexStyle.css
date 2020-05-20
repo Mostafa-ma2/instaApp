@@ -38,49 +38,63 @@
  }
  
  header .icons {
-     display: flex;
+    display: flex;
+}
+ header .container  {
+    display: flex;
+    height: 65px
  }
- 
- header .icons img {
-     width: 30px;
-     border-radius: 70px;
-     height: 25px;
-     margin-top: 12px;
+  header .icons a{
+      display:flex;
+      align-items: center;  
+  }
+ header .icons a img {
+    width: 25px;
+    border-radius: 50%;
+    height: 25px;
  }
  
  header .icons .icon {
      display: flex;
+     align-items: center;
  }
  
- header .icons i {
-     padding: 10px;
+ header .icons .icon i {
+     margin-right: 16px;
+     font-size: 20px;
  }
  
- header .icons .icon .s {
-     margin-top: 10px;
- }
- 
- header .serch input {
-     margin-top: 17px;
+header .search{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+ header .search input {
      background: #fafafa;
-     border: 1px solid;
+     border: 1px solid  #ccc; 
      width: 270px;
-     text-align: end;
+     padding: 5px 15px;
+     direction: ltr;
+     text-align: left;
  }
  
- header .serch .text-serch {
-     margin-top: -27px;
-     margin-left: -35px;
+ header .search .text-search {
      color: darkgrey;
      user-select: none;
-     z-index: -100;
+     position: absolute;
  }
- 
- header .serch .text-serch p {
-     margin-top: -25px;
-     margin-left: -61px;
+ header .search .text-search i{
+     padding: unset !important;
  }
- 
+ header .search .text-search p {
+    display: inline-block;
+ }
+ header .ImageLogo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
  header .ImageLogo img {
      width: 99px;
      float: left;
