@@ -47,3 +47,51 @@ function Cicon(obj) {
     }
     obj.classList.add("active");
 }
+/// img post
+var imgpost = document.getElementById("imgPost");
+var likepost = document.getElementById("likePost");
+var ikebtn = document.getElementById("icon-lefts");
+imgpost.addEventListener("dblclick", function() {
+    myimgelike(this);
+})
+
+function myimgelike(obj) {
+    likepost.style.display = "block";
+    if (ikebtn.className == "fa fa-heart-o") {
+        ikebtn.classList.remove("fa-heart-o");
+        ikebtn.classList.add("fa-heart");
+        ikebtn.style.color = "#ed4956";
+    }
+    var s = setTimeout(timeout, 800);
+
+    function timeout() {
+        likepost.style.display = "none";
+
+    }
+}
+
+//// like butten
+function mymarkbt(obj) {
+    if (obj.className == "fa fa-bookmark-o") {
+        obj.classList.remove("fa-bookmark-o");
+        obj.classList.add("fa-bookmark");
+        obj.style.color = "#ed4956";
+    } else {
+        obj.classList.remove("fa-bookmark");
+        obj.classList.add("fa-bookmark-o");
+        obj.style.color = "black";
+    }
+}
+
+
+function mylikebt(obj) {
+    if (obj.className == "fa fa-heart-o") {
+        obj.classList.remove("fa-heart-o");
+        obj.classList.add("fa-heart");
+        obj.style.color = "#ed4956";
+    } else {
+        obj.classList.remove("fa-heart");
+        obj.classList.add("fa-heart-o");
+        obj.style.color = "black";
+    }
+}
