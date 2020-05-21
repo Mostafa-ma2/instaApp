@@ -92,6 +92,7 @@ table {
          url('../Fonts/Awesome/fa-light-300.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
          url('../Fonts/Awesome/fa-light-300.ttf') format('truetype');
 }
+
 a {
     text-decoration: none !important;
 }

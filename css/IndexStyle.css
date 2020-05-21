@@ -125,24 +125,11 @@ main {
     margin-top: 37px;
 }
 
-main .main-right .profile img {
-    width: 100px;
-    float: left;
-    border-radius: 21px;
-}
-
-main .main-right .profile p {
-    display: inline-block;
-    float: left;
-    margin-top: 41px;
-    margin-left: 12px;
-}
-
 main .main-right .direct-list {
     background: white;
     display: inline-block;
     direction: ltr;
-    margin-top: 18px;
+    width: 100%;
     padding: 10px;
     border-radius: 6px;
 }
@@ -159,26 +146,26 @@ main .main-right .direct-list .direct-header {
 
 main .main-right .direct-list .direct-main {
     display: flex;
+    justify-content: space-around;
 }
 
 main .main-right .direct-list .direct-main a {
-    width: 322px;
     display: flex;
     padding: 10px;
-    margin-top: -9px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 main .main-right .direct-list .direct-main a:hover {
-    background-color: rgb(140, 175, 140);
+    background-color: #e0e0e0;
     border-radius: 7px;
 }
 
-main .main-right .direct-list .direct-main p {
+main .main-right .direct-list .direct-main div p {
     width: 249px;
     height: 27px;
-    margin-top: 9px;
     text-align: end;
-    margin-left: 10px;
 }
 
 main .main-right .direct-list .direct-main a:hover p {
@@ -187,17 +174,12 @@ main .main-right .direct-list .direct-main a:hover p {
 
 main .main-right .direct-list .direct-main h6 {
     width: 18px;
-    text-align: -webkit-center;
     height: 19px;
-    margin-top: 9px;
-    background: bisque;
     border-radius: 38px;
     font-size: 13px;
-    padding-top: 3px;
 }
 
 main .main-right .direct-list .direct-main a:hover h6 {
-    background-color: blue;
     color: white;
 }
 
@@ -213,7 +195,7 @@ main .main .main-list {
     background-color: white;
     padding: 12px;
     border-radius: 8px;
-    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 main .main .main-list .main-list-header {
@@ -257,18 +239,31 @@ main .main .main-list .main-list-footer #massegeComment {
     width: 100%;
     background: #fafafa;
     border: 1px solid #ccc;
-    display: flex;
     text-align: left;
     padding: 3px;
+    direction:ltr;
+    height: inherit;
 }
 
 main .main .main-list .main-list-footer .Text-comment {
-    justify-content: center;
     position: absolute;
-    color: darkgrey;
+    background: #828282;
+    color: white;
+    top: 0;
+    right: 0;
+    width: 35px;
+    cursor: pointer;
+    text-align: center;
+    height: inherit !important;
     user-select: none;
     font-size: 12px;
-    margin-top: -15px;
 }
 
-main .main-left {}
+main .main .main-list .main-list-footer .Text-comment i {
+    margin-top: 9px;
+}
+
+.comment-input {
+    height: 30px;
+    position: relative;
+}

@@ -47,21 +47,3 @@ function Cicon(obj) {
     }
     obj.classList.add("active");
 }
-/////// Input Comment Text box
-var InputMassegeC = document.getElementById("massegeComment");
-var ClassTextC = document.getElementById("Text-comment");
-InputMassegeC.addEventListener("keyup", function() {
-    CommentBox(this)
-})
-
-
-function CommentBox(obj) {
-    debugger;
-    if (obj.value == "") {
-        ClassTextC.style.display = "flex";
-
-    } else {
-        ClassTextC.style.display = "none";
-    }
-
-}
