@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "name";
+    src: url(fonts/font_Medium.eot) format("eot"), url(fonts/font_Medium.ttf) format("truetype"), url(fonts/font_Medium.woff) format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "name";
+    direction: rtl;
+    background-color: #dcdcdca3;
+}
+
+.body {
+    background-color: #f1f1f1 !important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #1a1f59;
+}
+
+a,
+a:hover {
+    transition: all 0.2s ease;
+    text-decoration: none !important;
+}
+
+
+/* Logiin */
+
+main .Login {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: auto;
+    background-color: green;
+}
+
+main .Login .content-Login {
+    text-align: center;
+    margin: 2% auto;
+    width: 21%;
+    height: 80%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+main .login .content-Login .form {
+    padding: 10px;
+    display: inline;
+}
