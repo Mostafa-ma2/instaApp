@@ -60,6 +60,7 @@ function myLike(obj) {
 
 };
 ///// Image Open
+
 var imageModal = document.getElementsByClassName("imageOpen");
 var modal = document.getElementById("modals");
 var imageForModal = document.getElementById("imageForModal");
