@@ -46,3 +46,39 @@ function Cicon(obj) {
     }
     obj.classList.add("active");
 }
+///// Like for massege
+var Mymassege = document.getElementsByClassName("My-massege");
+var likeMassege = document.getElementsByClassName("Like");
+for (i = 0; i < Mymassege.length; i++) {
+    Mymassege[i].addEventListener("dblclick", function() {
+        myLike(this);
+    });
+
+};
+
+function myLike(obj) {
+    console.log(obj);
+    var s = obj.;
+    console.log(s);
+};
+///// Image Open
+var imageModal = document.getElementsByClassName("imageOpen");
+var modal = document.getElementById("modals");
+var imageForModal = document.getElementById("imageForModal");
+for (i = 0; i < imageModal.length; i++) {
+    imageModal[i].addEventListener("click", function() {
+        openModal(this);
+    });
+};
+
+function openModal(obj) {
+    modal.style.display = "inline-block";
+    imageForModal.src = obj.src;
+}
+//close modals
+var closeModal = document.getElementById("closeModal");
+closeModal.addEventListener("click", closeModals);
+
+function closeModals() {
+    modal.style.display = "none";
+}
