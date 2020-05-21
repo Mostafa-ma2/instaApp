@@ -156,11 +156,13 @@
     }
     
     main .main-right .massege-main {
-        background: darkseagreen;
+        background: wheat;
         width: 100%;
         margin-top: 11px;
         padding: 10px;
-        border: 1px solid black;
+        border-left: 1px solid;
+        border-top: 1px solid;
+        border-right: 1px solid;
     }
     
     main .main-right .massege-main .My-massege {
@@ -168,18 +170,93 @@
         background: gainsboro;
         display: inline-flex;
         border-radius: 10px;
+        display: inline-block;
+    }
+    
+    main .main-right .massege-main .My-massege .porfile-massege {
+        display: flex;
+    }
+    
+    main .main-right .massege-main .My-massege .porfile-massege img {
+        width: 43px;
+        height: 35px;
+        border-radius: 37px;
+        margin-bottom: 7px;
+    }
+    
+    main .main-right .massege-main .My-massege .porfile-massege h2 {
+        margin-top: 8px;
+    }
+    
+    main .main-right .massege-main .My-massege img {
+        width: 200px;
+        height: 140px;
+    }
+    
+    main .main-right .massege-main .My-send-stori {
+        border-right: 6px solid #ccc;
+        padding: 10px;
+    }
+    
+    main .main-right .massege-main .My-send-stori .porfile-massege {
+        display: block;
+    }
+    
+    main .main-right .massege-main .My-send-stori img {
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    
+    main .main-right .massege-main .you-send-stori {
+        border-left: 6px solid #ccc;
+        padding: 10px;
+        display: grid;
+    }
+    
+    main .main-right .massege-main .you-send-stori .porfile-massege h2 {
+        text-align: end;
+    }
+    
+    main .main-right .massege-main .you-send-stori .porfile-massege {
+        display: block;
+    }
+    
+    main .main-right .massege-main .you-send-stori #profile {
+        width: 34px;
+        border-radius: 36px;
+        height: 34px;
+    }
+    
+    main .main-right .massege-main .you-send-stori img {
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
     }
     
     main .main-right .massege-main .you-massege {
         display: flex;
     }
     
-    main .main-right .massege-main .you-massege img {
-        width: 28px;
+    main .main-right .massege-main .you-massege #profile {
+        width: 34px;
         border-radius: 36px;
+        height: 34px;
     }
     
-    main .main-right .massege-main .you-massege p {
+    main .main-right .massege-main .you-massege .massege-text {
+        margin-left: 14px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 14px;
+    }
+    
+    main .main-right .massege-main .you-massege .massege-text img {
+        width: 220px;
+        border-radius: 0;
+    }
+    
+    main .main-right .massege-main .massege-text .you-massege p {
         margin-top: 8px;
         margin-left: 9px;
         padding: 4px;
@@ -187,10 +264,29 @@
         border-radius: 10px;
     }
     
+    main .main-right .massege-main .you-massege .massege-text .porfile-massege {
+        display: flex;
+    }
+    
+    main .main-right .massege-main .you-massege .massege-text .porfile-massege img {
+        width: 43px;
+        height: 35px;
+        border-radius: 37px;
+        margin-bottom: 7px;
+    }
+    
+    main .main-right .massege-main .you-massege .massege-text .porfile-massege h2 {
+        margin-top: 8px;
+    }
+    
     main .main-right .input-massege {
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+        padding: 10px;
     }
     
     main .main-right .input-massege input {
