@@ -57,9 +57,7 @@ for (i = 0; i < Mymassege.length; i++) {
 };
 
 function myLike(obj) {
-    console.log(obj);
-    var s = obj.;
-    console.log(s);
+
 };
 ///// Image Open
 var imageModal = document.getElementsByClassName("imageOpen");
@@ -81,4 +79,22 @@ closeModal.addEventListener("click", closeModals);
 
 function closeModals() {
     modal.style.display = "none";
+}
+///// Change the Main left
+var left = document.getElementById("left");
+var lefts = document.getElementById("lefts");
+var leftBTnChange = document.getElementById("leftBTnChange");
+var BtnLeftsChange = document.getElementById("BtnLeftsChange");
+leftBTnChange.addEventListener("click", Change);
+BtnLeftsChange.addEventListener("click", leftcheng);
+
+
+function Change() {
+    left.style.display = "none";
+    lefts.style.display = "block";
+}
+
+function leftcheng() {
+    lefts.style.display = "none";
+    left.style.display = "block";
 }
