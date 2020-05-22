@@ -220,10 +220,14 @@ main .main .main-list .main-list-main {
     position: relative;
 }
 
-main .main .main-list .main-list-main img {
+main .main .main-list .main-list-main .imgPost-active {
     width: 100%;
     height: 333px;
     margin-top: 9px;
+}
+
+main .main .main-list .main-list-main .imgPost {
+    display: none;
 }
 
 main .main .main-list .main-list-main .iconLike {

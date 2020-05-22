@@ -48,14 +48,17 @@ function Cicon(obj) {
     obj.classList.add("active");
 }
 /// img post
-var imgpost = document.getElementById("imgPost");
+var imgpost = document.getElementsByClassName("imgPost");
 var likepost = document.getElementById("likePost");
 var ikebtn = document.getElementById("icon-lefts");
-imgpost.addEventListener("dblclick", function() {
-    myimgelike(this);
-})
+for (var i = 0; i < imgpost.length; i++) {
+    imgpost[i].addEventListener("dblclick", function() {
+        myimgelike(this);
+    })
+}
 
 function myimgelike(obj) {
+    console.log(obj);
     likepost.style.display = "block";
     if (ikebtn.className == "fa fa-heart-o") {
         ikebtn.classList.remove("fa-heart-o");
