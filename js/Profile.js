@@ -32,3 +32,25 @@ function closeSerch(eh) {
     CloseSearch.style.display = "none";
     txtSearchText.style.display = "inline-block";
 }
+// Change Post
+var input = document.getElementsByClassName("input");
+for (var i = 0; i < input.length; i++) {
+    input[i].addEventListener("click", function() {
+        ChangeP(this);
+    });
+};
+
+function ChangeP(obj) {
+    var inputs = document.getElementsByClassName("input active")[0];
+    var clasRemove = "active";
+    var clasAdd = "input";
+    inputs.classList.remove(clasRemove);
+    var attrs = inputs.getAttribute("attr");
+    var posst = document.getElementsByClassName(attrs)[0];
+    posst.style.display = "none";
+    var inputactive = "input-active";
+    var attr = obj.getAttribute("attr");
+    obj.classList.add(clasRemove);
+    var post = document.getElementsByClassName(attr)[0];
+    post.style.display = "-webkit-box";
+}

@@ -157,7 +157,7 @@
     
     main .main-header .folowing {
         text-align: initial;
-        margin-top: 12px;
+        margin-top: 33px;
     }
     
     main .main-header .folowing a {
@@ -167,8 +167,8 @@
     
     main .main-header .text {
         text-align: end;
-        margin-left: 23px;
-        margin-top: 22px;
+        margin-left: 20px;
+        margin-top: 18px;
     }
     
     main .main-header .text h1 {
@@ -194,7 +194,7 @@
         padding: 14px;
     }
     
-    main .main .btn .input-active {
+    main .main .btn .active {
         display: flex;
         border-bottom: 3px solid burlywood;
         padding: 14px;
@@ -204,7 +204,7 @@
         padding: 6px;
     }
     
-    main .main .btn .input-active i {
+    main .main .btn .active i {
         padding: 6px;
     }
     
@@ -233,7 +233,7 @@
     }
     
     main .main .Post .Posts .skip .fa-heart {
-        margin-top: 38%;
+        margin-top: 32%;
     }
     
     main .main .Post .Posts {
@@ -241,6 +241,84 @@
     }
     
     main .main .Post .Posts .icons {
+        position: absolute;
+        top: 7px;
+        right: 24px;
+        color: white;
+    }
+    
+    main .main .taged {
+        display: -webkit-box;
+        margin-bottom: 30px;
+    }
+    
+    main .main .taged .Posts img {
+        width: 100%;
+    }
+    
+    main .main .taged .Posts .skip {
+        color: white;
+        background: #00000078;
+        width: 92%;
+        position: absolute;
+        height: 99%;
+        top: 0;
+        opacity: 0;
+        transition: all 0.2s ease;
+    }
+    
+    main .main .taged .Posts:hover .skip {
+        opacity: 1;
+    }
+    
+    main .main .taged .Posts .skip .fa-heart {
+        margin-top: 32%;
+    }
+    
+    main .main .taged .Posts {
+        display: inline-block;
+    }
+    
+    main .main .taged .Posts .icons {
+        position: absolute;
+        top: 7px;
+        right: 24px;
+        color: white;
+    }
+    
+    main .main .taged {
+        display: -webkit-box;
+        margin-bottom: 30px;
+    }
+    
+    main .main .Saved .Posts img {
+        width: 100%;
+    }
+    
+    main .main .Saved .Posts .skip {
+        color: white;
+        background: #00000078;
+        width: 92%;
+        position: absolute;
+        height: 99%;
+        top: 0;
+        opacity: 0;
+        transition: all 0.2s ease;
+    }
+    
+    main .main .Saved .Posts:hover .skip {
+        opacity: 1;
+    }
+    
+    main .main .Saved .Posts .skip .fa-heart {
+        margin-top: 32%;
+    }
+    
+    main .main .Saved .Posts {
+        display: inline-block;
+    }
+    
+    main .main .Saved .Posts .icons {
         position: absolute;
         top: 7px;
         right: 24px;
