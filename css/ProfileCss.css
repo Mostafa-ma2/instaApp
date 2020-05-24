@@ -1,0 +1,248 @@
+    @font-face {
+        font-family: "name";
+        src: url(fonts/font_Medium.eot) format("eot"), url(fonts/font_Medium.ttf) format("truetype"), url(fonts/font_Medium.woff) format("woff");
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: "name";
+        direction: ltr;
+        background-color: #dcdcdca3;
+    }
+    
+    .body {
+        background-color: #f1f1f1 !important;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        color: #1a1f59;
+    }
+    
+    a,
+    a:hover {
+        transition: all 0.2s ease;
+        text-decoration: none !important;
+    }
+    /* ====================== Header Top========== */
+    
+    header {
+        background: white;
+        direction: rtl;
+    }
+    
+    header .icons {
+        display: flex;
+    }
+    
+    header .container {
+        display: flex;
+        height: 65px
+    }
+    
+    header .icons a {
+        display: flex;
+        align-items: center;
+    }
+    
+    header .container {
+        display: flex;
+        height: 65px
+    }
+    
+    header .icons a {
+        display: flex;
+        margin-left: 10px;
+        justify-content: center;
+        width: 30px;
+        align-items: center;
+    }
+    
+    header .icons a.active {
+        background: #dcdcdca3;
+    }
+    
+    header .icons a img {
+        width: 25px;
+        border-radius: 50%;
+        height: 25px;
+    }
+    
+    header .icons .icon i {
+        font-size: 20px;
+    }
+    
+    header .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .search input {
+        background: #fafafa;
+        border: 1px solid #ccc;
+        width: 270px;
+        padding: 5px 15px;
+        direction: ltr;
+        text-align: left;
+    }
+    
+    header .search .text-search {
+        color: darkgrey;
+        user-select: none;
+        font-size: 12px;
+        position: absolute;
+    }
+    
+    header .search .text-search i {
+        padding: unset !important;
+    }
+    
+    header .ImageLogo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    header .ImageLogo img {
+        width: 99px;
+        float: left;
+    }
+    /* ======================== Main */
+    
+    main .main-header {
+        margin-top: 10px;
+        display: inline-flex;
+    }
+    
+    main .main-header .profile-image img {
+        width: 100%;
+        border-radius: 80px;
+        height: 100%;
+        display: block;
+    }
+    
+    main .main-header .profile-Name {
+        display: flex;
+        margin-top: 22px;
+        margin-left: 27px;
+        height: 33px;
+    }
+    
+    main .main-header .profile-Name a {
+        padding: 10px;
+        background: white;
+        border-radius: 8px;
+        color: black;
+    }
+    
+    main .main-header .profile-Name a:hover {
+        padding: 10px;
+        background: burlywood;
+        border-radius: 8px;
+        color: black;
+    }
+    
+    main .main-header .profile-Name h1 {
+        font-size: 39px;
+        margin-right: 28px;
+    }
+    
+    main .main-header .folowing {
+        text-align: initial;
+        margin-top: 12px;
+    }
+    
+    main .main-header .folowing a {
+        font-size: 21px;
+        margin: 19px;
+    }
+    
+    main .main-header .text {
+        text-align: end;
+        margin-left: 23px;
+        margin-top: 22px;
+    }
+    
+    main .main-header .text h1 {
+        font-size: 17px;
+        margin-bottom: 13px;
+    }
+    /* ================ buten */
+    
+    main .main {
+        text-align: center;
+    }
+    
+    main .main hr {
+        margin-bottom: 0;
+    }
+    
+    main .main .btn {
+        display: inline-flex;
+    }
+    
+    main .main .btn .input {
+        display: flex;
+        padding: 14px;
+    }
+    
+    main .main .btn .input-active {
+        display: flex;
+        border-bottom: 3px solid burlywood;
+        padding: 14px;
+    }
+    
+    main .main .btn .input i {
+        padding: 6px;
+    }
+    
+    main .main .btn .input-active i {
+        padding: 6px;
+    }
+    
+    main .main .Post {
+        display: -webkit-box;
+        margin-bottom: 30px;
+    }
+    
+    main .main .Post .Posts img {
+        width: 100%;
+    }
+    
+    main .main .Post .Posts .skip {
+        color: white;
+        background: #00000078;
+        width: 92%;
+        position: absolute;
+        height: 99%;
+        top: 0;
+        opacity: 0;
+        transition: all 0.2s ease;
+    }
+    
+    main .main .Post .Posts:hover .skip {
+        opacity: 1;
+    }
+    
+    main .main .Post .Posts .skip .fa-heart {
+        margin-top: 38%;
+    }
+    
+    main .main .Post .Posts {
+        display: inline-block;
+    }
+    
+    main .main .Post .Posts .icons {
+        position: absolute;
+        top: 7px;
+        right: 24px;
+        color: white;
+    }

@@ -78,7 +78,6 @@
                     <div id="likePost" class="iconLike" style="display:none">
                         <i class="fa fa-heart " style="color: white; "></i>
                     </div>
-
                 </div>
                 <div class="main-list-footer ">
                     <i id="icon-left " onclick="mymarkbt(this) " style="margin-left: 9px; " class="fa fa-bookmark-o "></i>
@@ -89,11 +88,11 @@
                     <a class="text-muted " href="#! ">
                         Comment ALL
                     </a>
-                    <h2 class="text-muted mt-3 mb-2 ">Now</h2>
-                    <div class="comment-input ">
-                        <input id="massegeComment " type="text " />
-                        <div id="Text-comment " class="Text-comment ">
-                            <i class="fa fa-paper-plane-o "></i>
+                    <h2 class="text-muted mt-3 mb-2">Now</h2>
+                    <div class="comment-input">
+                        <input id="massegeComment" type="text" />
+                        <div id="Text-comment" class="Text-comment">
+                            <i class="fa fa-paper-plane-o"></i>
                         </div>
                     </div>
                 </div>
@@ -104,17 +103,18 @@
                     <p>Reza</p>
                 </div>
                 <div class="main-list-main">
-                    <img class="imgPost-active" src="Image/code-wallpaper-14.jpg" alt="">
-                    <img class="imgPost" src="Image/code-wallpaper-14.jpg" alt="">
-                    <img class="imgPost" src="Image/code-wallpaper-14.jpg" alt="">
+                    <div class="Slider">
+                        <img class="imgPost" src="Image/code-wallpaper-14.jpg" alt="">
+                        <img class="imgPost-active" src="Image/middle_earth_shadow_of_mordor-3840x2160.jpg" alt="">
+                        <img class="imgPost" src="Image/code-wallpaper-8.jpg" alt="">
 
-                    <div id="likePost" class="iconLike" style="display:none">
-                        <i class="fa fa-heart" style="color: white; "></i>
-                    </div>
-                    <div class="iconForImage" style="text-align: center;">
-                        <i class="Icons fa fa-circle" style="color:gold;cursor:pointer"></i>
-                        <i class="Icons fa fa-circle-o"></i>
-                        <i class="Icons fa fa-circle-o"></i>
+                        <div id="likePost" class="iconLike" style="display:none">
+                            <i class="fa fa-heart" style="color: white; "></i>
+                        </div>
+                        <div class="ChangeImageNext">
+                            <i class="icon-right fa fa-arrow-circle-right" att="imgPost-active"></i>
+                            <i class="icon-left fa fa-arrow-circle-left" att="imgPost-active"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="main-list-footer ">
@@ -137,13 +137,13 @@
             </div>
         </div>
         <div class="main-left col-md-3 col-sm-12 ">
-            <div class="Stories-list col-md-12 col-sm-12  style=" padding: 11px; ">
+            <div class="Stories-list col-md-12 col-sm-12" style="padding: 11px;">
                 <p>Stories</p>
                 <hr>
             </div>
             <div id=" storiesOpen " class=" Stories-list col-md-6 col-sm-6 ">
                 <a href=" # "><img src=" Image/photo_2017-04-30_11-25-44.jpg " alt=" ">
-                <p>parsa</p>
+                    <p>parsa</p>
                 </a>
             </div>
             <div class=" Stories-list col-md-6 col-sm-6 ">
@@ -157,27 +157,7 @@
                 </a>
             </div>
         </div>
-        <div Id=" modals " class=" Modal " style=" display: none; ">
-                <div class=" content-modals ">
-                    <div class=" modal-header ">
-                        <i id=" closeStori " style=" cursor: pointer; " class=" fa fa-close "></i>
-                        <h2 id=" PausedStories " style=" display: none; ">Paused</h2>
-                        <p style=" cursor: pointer; ">ali</p>
-                        <img style=" cursor: pointer; " src=" Image/code-wallpaper-14.jpg " alt=" ">
-                    </div>
-                    <div class=" modal-main ">
-                        <img id=" imgStori " src=" Image/photo_2017-04-30_11-25-44.jpg " alt=" ">
 
-                    </div>
-                    <div class=" modal-footer ">
-                        <input id=" commentstoris " type=" text " /><i style=" cursor: pointer; "
-                            class=" fa fa-paper-plane-o "></i>
-                        <div Id=" textinputs " class=" text-input " style=" display: block; ">
-                            <p>Send a message</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </main>
     <script src=" js/jquery-3.4.1.js "></script>
     <script src=" js/IndexJavaScript.js "></script>

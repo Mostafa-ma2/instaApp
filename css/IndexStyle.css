@@ -226,6 +226,25 @@ main .main .main-list .main-list-main .imgPost-active {
     margin-top: 9px;
 }
 
+main .main .main-list .main-list-main .ChangeImageNext .icon-right {
+    position: absolute;
+    top: 50%;
+    font-size: 28px;
+    right: 8px;
+    color: white;
+    background: black;
+    box-shadow: -12px 4px 20px 20px black;
+}
+
+main .main .main-list .main-list-main .ChangeImageNext .icon-left {
+    position: absolute;
+    top: 50%;
+    font-size: 28px;
+    left: 10px;
+    color: white;
+    box-shadow: 8px 5px 20px 20px black;
+}
+
 main .main .main-list .main-list-main .imgPost {
     display: none;
 }
